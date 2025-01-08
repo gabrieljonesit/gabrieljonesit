@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    transition: background-color 0.5s;
+  }
+  
+  .running-demo {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .running-demo .el {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+  }
+  
+  .running-demo .circle.el {
+    border-radius: 50%;
+  }
+  
+  .running-demo .triangle.el {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #e74c3c;
+  }
+  
+  .running-log {
+    margin-top: 20px;
+  }
+  
